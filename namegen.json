@@ -15,7 +15,7 @@
 		"channels": [{
 			"name": "redirect",
 			"urls": [
-				"proxy://do=live&type=txt&ext=aHR0cHM6Ly9qcy5jYXR2b2QuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9mYW5taW5nbWluZy9saXZlL21haW4vdHYvbTN1L2lwdjYubTN1"
+				"proxy://do=live&type=txt&ext=aHR0cHM6Ly9qcy5jYXR2b2QuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9uYW1lZ2VubGlhbmcvZHkvbWFpbi9uYW1lZ2VuLm0zdQ=="
 			]
 		}]
 	}],
