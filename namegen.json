@@ -8,7 +8,7 @@
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
 	"spider": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.jar;md5;9ea56365da0698509cfc3b88d2b110f8",
-	"wallpaper": "https://bing.img.run/rand.php",
+	"wallpaper": "https://img.catvod.com",
 	"warningText": "接口软件免费(请勿相信视频中广告)",
 	"lives": [{
 		"group": "redirect",
