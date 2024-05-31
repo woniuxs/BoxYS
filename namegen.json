@@ -7,7 +7,7 @@
 //本管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、转载、发布、修改了本文内容，则视为您已接受此免责声明。否则后果自负。
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
-	"spider": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.jar;md5;696bec9ebf3ecb824bd8d6f1ac05d01d",
+	"spider": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.jar;md5;f547c1edc32690bbe55bc90040dd3e4f",
 	"wallpaper": "https://img.catvod.com",
 	"lives": [{
 		"group": "redirect",
@@ -26,7 +26,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
-		},
+		},	
 		{
 			"key": "4K电影",
 			"name": "4K电影",
@@ -156,17 +156,8 @@
 			"ext": "https://www.voflix.me"
 		},
 		{
-			"key": "DaGongRen",
-			"name": "DaGongRen(搜索)",
-			"type": 3,
-			"api": "csp_DaGongRen",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "电影港",
-			"name": "电影港(搜索)",
+			"name": "电影港",
 			"type": 3,
 			"api": "csp_DyGang",
 			"searchable": 1,
@@ -174,59 +165,534 @@
 			"filterable": 1
 		},	
 		{
-			"key": "TVB云播",
-			"name": "TVB云播(搜索)",
-			"type": 3,
-			"api": "csp_HkTv",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},	
-		{
-			"key": "Ikanbot",
-			"name": "Ikanbot(搜索)",
-			"type": 3,
-			"api": "csp_Ikanbot",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},	
-		{
-			"key": "网飞猫",
-			"name": "网飞猫(搜索)",
-			"type": 3,
-			"api": "csp_NCat",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},	
-		{
-			"key": "电影天堂",
-			"name": "电影天堂(搜索)",
-			"type": 3,
-			"api": "csp_TvDy",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "55电影",
-			"name": "55电影(搜索)",
-			"type": 3,
-			"api": "csp_W55Movie",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},	
-		{
 			"key": "Xunlei8",
-			"name": "Xunlei8(搜索)",
+			"name": "Xunlei8",
 			"type": 3,
 			"api": "csp_Xunlei8",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
-		},															
+		},												
+		{
+			"key": "wencai",
+			"name": "文才",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/wencai.json" 
+		},	
+		{
+			"key": "heihu",
+			"name": "黑狐",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/heihu.json" 
+		},
+		{
+			"key": "qiuxia",
+			"name": "秋霞",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/qiuxia.json" 
+		},
+		{
+			"key": "bugutv",
+			"name": "布谷",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/bugutv.json" 
+		},
+		{
+			"key": "mp4br",
+			"name": "mp4br",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/mp4br.json" 
+		},	
+		{
+			"key": "cdnkan",
+			"name": "胖虎",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/cdnkan.json" 
+		},	
+		{
+			"key": "jqq",
+			"name": "剧圈圈",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/jqq.json" 
+		},
+		{
+			"key": "zizi",
+			"name": "子子",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/zizi.json" 
+		},	
+		{
+			"key": "4kvm",
+			"name": "4K影院",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/4kvm.json" 
+		},
+		{
+			"key": "98dyb",
+			"name": "玖八",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/98dyb.json" 
+		},
+		{
+			"key": "123",
+			"name": "idc123",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/123.json" 
+		},
+		{
+			"key": "5555kan",
+			"name": "55影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/5555kan.json" 
+		},
+		{
+			"key": "baipiaozhe",
+			"name": "白嫖者",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/baipiaozhe.json" 
+		},
+		{
+			"key": "cechi",
+			"name": "策驰",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/cechi.json" 
+		},
+		{
+			"key": "dadagui",
+			"name": "达达龟",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/dadagui.json" 
+		},
+		{
+			"key": "dandan",
+			"name": "蛋蛋",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/dandan.json" 
+		},
+		{
+			"key": "dsx",
+			"name": "大师兄",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/dsx.json" 
+		},
+		{
+			"key": "guangun",
+			"name": "光棍",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/guangun.json" 
+		},
+		{
+			"key": "wencai",
+			"name": "文才",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/wencai.json" 
+		},
+		{
+			"key": "honghuli",
+			"name": "红狐狸",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/honghuli.json" 
+		},
+		{
+			"key": "hyx",
+			"name": "麻衣",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/hyx.json" 
+		},
+		{
+			"key": "miai",
+			"name": "米爱",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/miai.json" 
+		},
+		{
+			"key": "nongmin",
+			"name": "农民",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/nongmin.json" 
+		},
+		{
+			"key": "qiyou",
+			"name": "奇优",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/qiyou.json" 
+		},
+		{
+			"key": "scheng",
+			"name": "圣城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/scheng.json" 
+		},
+		{
+			"key": "sxtv",
+			"name": "神仙tv",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/sxtv.json" 
+		},
+		{
+			"key": "TVB",
+			"name": "TVB云播",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/TVB.json" 
+		},
+		{
+			"key": "4kgod",
+			"name": "4kgod",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/4kgod.json" 
+		},	
+		{
+			"key": "77ys",
+			"name": "77影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/77ys.json" 
+		},
+		{
+			"key": "bzhan",
+			"name": "B站",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/bzhan.json" 
+		},
+		{
+			"key": "chigua",
+			"name": "吃瓜",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/chigua.json" 
+		},	
+		{
+			"key": "cxyy",
+			"name": "畅享",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/cxyy.json" 
+		},	
+		{
+			"key": "dyds",
+			"name": "大师",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/dyds.json" 
+		},
+		{
+			"key": "fengniao",
+			"name": "蜂鸟",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/fengniao.json" 
+		},	
+		{
+			"key": "freeok",
+			"name": "freeok",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/freeok.json" 
+		},
+		{
+			"key": "haole",
+			"name": "好乐",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/haole.json" 
+		},
+		{
+			"key": "hema",
+			"name": "河马",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/hema.json" 
+		},
+		{
+			"key": "hitv",
+			"name": "好影",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/hitv.json" 
+		},
+		{
+			"key": "jkv",
+			"name": "即看",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/jkv.json" 
+		},
+		{
+			"key": "pianba",
+			"name": "片吧",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/pianba.json" 
+		},
+		{
+			"key": "rebo",
+			"name": "热播",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/rebo.json" 
+		},
+		{
+			"key": "saohuo",
+			"name": "骚火",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/saohuo.json" 
+		},
+		{
+			"key": "subaibai",
+			"name": "素白白",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/subaibai.json" 
+		},
+		{
+			"key": "xifan",
+			"name": "稀饭",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/xifan.json" 
+		},		
+		{
+			"key": "vid",
+			"name": "vid",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/vid.json" 
+		},
+		{
+			"key": "xcy",
+			"name": "星辰",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/xcy.json" 
+		},
+		{
+			"key": "xiaoxiong",
+			"name": "小熊",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/xiaoxiong.json" 
+		},
+		{
+			"key": "xinshijue",
+			"name": "新视觉",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/xinshijue.json" 
+		},	
+	    {
+			"key": "keke",
+			"name": "可可",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/keke.json"
+		},	
+	    {
+			"key": "duanju8",
+			"name": "短剧8",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/duanju.json"
+		},	
+		{
+			"key": "duanju001",
+			"name": "短剧001",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/duanju001.json" 
+		},	
+		{
+			"key": "9527",
+			"name": "9527",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/9527.json" 
+		},																														
 		{
 			"key": "酷狗",
 			"name": "酷狗",
@@ -424,19 +890,14 @@
 		}
 	],
 	"parses": [{
-			"name": "播放不了点后面的VIP",
+			"name": "VIP1",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url="
 		},
 		{
-			"name": "VIP1",
-			"type": 0,
-			"url": "https://t1.qlplayer.cyou/player/?url="
-		},
-		{
 			"name": "VIP2",
 			"type": 0,
-			"url": "http://119.91.123.253:2345/Api/yun.php?url="
+			"url": "https://t1.qlplayer.cyou/player/?url="
 		},
 		{
 			"name": "VIP3",
@@ -446,52 +907,12 @@
 		{
 			"name": "VIP4",
 			"type": 0,
-			"url": "https://jx.jsonplayer.com/player/?url="
+			"url": "https://yparse.ik9.cc/index.php?url="
 		},
 		{
 			"name": "VIP5",
 			"type": 0,
-			"url": "https://jx.playerjy.com/?ads=0&url="
-		},
-		{
-			"name": "VIP6",
-			"type": 0,
-			"url": "https://player.mrgaocloud.com/player/?url="
-		},
-		{
-			"name": "VIP7",
-			"type": 0,
-			"url": "https://jx.777jiexi.com/player/?url="
-		},
-		{
-			"name": "VIP8",
-			"type": 0,
-			"url": "https://jx.playerjy.com/?url="
-		},
-		{
-			"name": "VIP9",
-			"type": 0,
-			"url": "https://yparse.ik9.cc/index.php?url="
-		},
-		{
-			"name": "VIP10",
-			"type": 0,
-			"url": "https://43.240.74.102:4433/?url="
-		},
-		{
-			"name": "VIP11",
-			"type": 0,
 			"url": "https://jx.2s0.cn/player/?url="
-		},
-		{
-			"name": "VIP12",
-			"type": 0,
-			"url": "https://jx.yangtu.top/?url="
-		},
-		{
-			"name": "VIP13",
-			"type": 0,
-			"url": "https://bd.jx.cn/?url="
 		}
 	],
 	"flags": [
