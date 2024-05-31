@@ -1,0 +1,7 @@
+{
+                "站名": "吃瓜影视",
+                "主页url": "https://www.chiguafilm.com/",
+                "链接": "/index.php/vod/play/+/detail/&&.html+/sid/1/nid/1.html",
+                "分类": "电影$1#连续剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.chiguafilm.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+            }
