@@ -7,8 +7,8 @@
 //本管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、转载、发布、修改了本文内容，则视为您已接受此免责声明。否则后果自负。
 //本接口无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。<请勿相信视频中广告>
 {
-	"spider": "https://js.catvod.com/https://raw.githubusercontent.com/namegenliang/dy/main/namegen.jar;md5;f547c1edc32690bbe55bc90040dd3e4f",
-	"wallpaper": "https://imgs.catvod.com",
+	"spider": "clan://localhost//Misc/dy-main/namegen.jar;md5;f547c1edc32690bbe55bc90040dd3e4f",
+	"wallpaper": "https://img.catvod.com",
 	"lives": [{
 		"group": "redirect",
 		"channels": [{
@@ -146,16 +146,6 @@
 			"filterable": 1
 		},
 		{
-			"key": "Voflix",
-			"name": "Voflix",
-			"type": 3,
-			"api": "csp_Voflix",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://www.voflix.me"
-		},
-		{
 			"key": "电影港",
 			"name": "电影港",
 			"type": 3,
@@ -172,17 +162,27 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
-		},												
+		},	
 		{
-			"key": "wencai",
-			"name": "文才",
+			"key": "农民",
+			"name": "农民",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./js/wencai.json" 
-		},	
+			"ext": "./js/nongmin.json" 
+		},
+		{
+			"key": "晴天",
+			"name": "晴天",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/qingtian.json" 
+		},													
 		{
 			"key": "heihu",
 			"name": "黑狐",
@@ -192,16 +192,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/heihu.json" 
-		},
-		{
-			"key": "qiuxia",
-			"name": "秋霞",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/qiuxia.json" 
 		},
 		{
 			"key": "bugutv",
@@ -275,7 +265,7 @@
 		},
 		{
 			"key": "123",
-			"name": "idc123",
+			"name": "naifei",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
@@ -314,36 +304,6 @@
 			"ext": "./js/cechi.json" 
 		},
 		{
-			"key": "dadagui",
-			"name": "达达龟",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/dadagui.json" 
-		},
-		{
-			"key": "dandan",
-			"name": "蛋蛋",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/dandan.json" 
-		},
-		{
-			"key": "dsx",
-			"name": "大师兄",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/dsx.json" 
-		},
-		{
 			"key": "guangun",
 			"name": "光棍",
 			"type": 3,
@@ -352,26 +312,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/guangun.json" 
-		},
-		{
-			"key": "wencai",
-			"name": "文才",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/wencai.json" 
-		},
-		{
-			"key": "honghuli",
-			"name": "红狐狸",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/honghuli.json" 
 		},
 		{
 			"key": "hyx",
@@ -392,16 +332,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/miai.json" 
-		},
-		{
-			"key": "nongmin",
-			"name": "农民",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/nongmin.json" 
 		},
 		{
 			"key": "qiyou",
@@ -465,7 +395,7 @@
 		},
 		{
 			"key": "bzhan",
-			"name": "B站",
+			"name": "超点",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
@@ -502,26 +432,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/dyds.json" 
-		},
-		{
-			"key": "fengniao",
-			"name": "蜂鸟",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/fengniao.json" 
-		},	
-		{
-			"key": "freeok",
-			"name": "freeok",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/freeok.json" 
 		},
 		{
 			"key": "haole",
@@ -614,16 +524,6 @@
 			"ext": "./js/xifan.json" 
 		},		
 		{
-			"key": "vid",
-			"name": "vid",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/vid.json" 
-		},
-		{
 			"key": "xcy",
 			"name": "星辰",
 			"type": 3,
@@ -642,27 +542,57 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/xiaoxiong.json" 
-		},
-		{
-			"key": "xinshijue",
-			"name": "新视觉",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/xinshijue.json" 
-		},	
+		},		
 	    {
-			"key": "keke",
-			"name": "可可",
+			"key": "Movies",
+			"name": "Movies",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./js/keke.json"
+			"ext": "./js/Movies.json"
+		},
+	    {
+			"key": "映播",
+			"name": "映播",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/yingbo.json"
+		},
+	    {
+			"key": "sdsrty",
+			"name": "影视大全",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/sdsrty.json"
+		},
+	    {
+			"key": "ruituka",
+			"name": "金牌影院",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/ruituka.json"
 		},	
+		{
+			"key": "9527",
+			"name": "看电影",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/9527.json" 
+		},														
 	    {
 			"key": "duanju8",
 			"name": "短剧8",
@@ -682,17 +612,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./js/duanju001.json" 
-		},	
-		{
-			"key": "9527",
-			"name": "9527",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./js/9527.json" 
-		},																														
+		},			
 		{
 			"key": "酷狗",
 			"name": "酷狗",
@@ -712,24 +632,6 @@
 			"filterable": 1
 		},
 		{
-			"key": "看球",
-			"name": "看球",
-			"type": 3,
-			"api": "csp_Kanqiu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "动漫1",
-			"name": "动漫1",
-			"type": 3,
-			"api": "csp_Dm84",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "急救",
 			"name": "急救",
 			"type": 3,
@@ -737,87 +639,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
-		},
-		{
-			"key": "动漫2",
-			"name": "动漫2",
-			"type": 3,
-			"api": "csp_Ying",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "kuaikan",
-			"name": "kuaikan",
-			"type": 1,
-			"api": "https://kuaikan-api.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "最大",
-			"name": "最大",
-			"type": 1,
-			"api": "https://api.zuidapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "优质",
-			"name": "优质",
-			"type": 1,
-			"api": "https://api.1080zyku.com/inc/apijson.php",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "奇虎",
-			"name": "奇虎",
-			"type": 1,
-			"api": "https://caiji.qhzyapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "乐视",
-			"name": "乐视",
-			"type": 1,
-			"api": "https://leshiapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "暴风",
-			"name": "暴风",
-			"type": 1,
-			"api": "https://bfzyapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "索尼",
-			"name": "索尼",
-			"type": 1,
-			"api": "https://suoniapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "量子",
-			"name": "量子",
-			"type": 1,
-			"api": "https://cj.lziapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "非凡",
-			"name": "非凡",
-			"type": 1,
-			"api": "http://cj.ffzyapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
 		},
 		{
 			"key": "小纸条",
@@ -889,7 +710,8 @@
 			"filterable": 1
 		}
 	],
-	"parses": [{
+	"parses": [
+	    {
 			"name": "VIP1",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url="
@@ -909,6 +731,11 @@
 			"type": 0,
 			"url": "https://yparse.ik9.cc/index.php?url="
 		},
+		{
+			"name": "VIP6",
+			"type": 0,
+			"url": "https://jx.5566jiexi.com/?url="
+		},		
 		{
 			"name": "VIP5",
 			"type": 0,
